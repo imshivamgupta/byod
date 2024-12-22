@@ -10,13 +10,11 @@
         App.
       </h2>
 
-      <form class="contact-form" id="contact-form" method="post">
-        <input type="hidden" name="form-name" value="contact-form" />
+      <form class="contact-form" method="post" data-netlify="true">
         <!-- <label for="email">Email</label> -->
         <div>
           <input
             type="email"
-            id="email"
             name="email"
             placeholder="Enter your email"
             required
@@ -65,14 +63,13 @@ export default {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 4rem;
+    margin-block: 4rem;
   }
   h1 {
     font-size: 128px;
-
     font-weight: 400;
     text-align: center;
-    line-height: 1.12;
+    line-height: 1;
     color: transparent;
     background-image: linear-gradient(
       0deg,
@@ -96,12 +93,12 @@ export default {
   .contact-form {
     // background: linear-gradient(to bottom, rgba(6, 13, 29, 1), #080a13);
     backdrop-filter: blur(100px);
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding: 2px;
     display: flex;
     position: relative;
     width: 50%;
-    min-width: 370px;
+    min-width: 350px;
     border-radius: 1rem;
     background: linear-gradient(
       160deg,
