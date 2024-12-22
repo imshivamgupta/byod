@@ -29,7 +29,7 @@ a:hover {
 }
 
 body {
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: "Familjen Grotesk", serif;
   font-optical-sizing: auto;
   font-weight: 400;
