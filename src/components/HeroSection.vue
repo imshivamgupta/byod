@@ -10,8 +10,9 @@
         App.
       </h2>
 
-      <form name="contact" method="POST" data-netlify="true">
+      <form name="contact" class="contact-form" method="POST" data-netlify="true">
         <!-- <label for="email">Email</label> -->
+        <input type="hidden" name="form-name" value="contact" />
         <div>
           <input
             type="email"
