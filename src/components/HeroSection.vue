@@ -10,7 +10,7 @@
         App.
       </h2>
 
-      <form name="contact" method="POST" class="contact-form" netlify>
+      <form name="contact" class="contact-form" netlify>
         <!-- <label for="email">Email</label> -->
         <div>
           <input
