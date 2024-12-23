@@ -10,7 +10,7 @@
         App.
       </h2>
 
-      <form name="contact" class="contact-form" method="POST" data-netlify="true" @submit="handleSubmit">
+      <form name="contact" class="contact-form" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
         <!-- <label for="email">Email</label> -->
         <input type="hidden" name="form-name" value="contact" />
         <div>
