@@ -10,7 +10,7 @@
         App.
       </h2>
 
-      <form name="contact" class="contact-form" method="POST" data-netlify="true" action="/thank-you.html">
+      <form name="contact" class="contact-form" method="POST" data-netlify="true" @submit="handleSubmit">
         <!-- <label for="email">Email</label> -->
         <input type="hidden" name="form-name" value="contact" />
         <div>
@@ -36,7 +36,12 @@ export default {
     return {};
   },
   props: {},
-  methods: {},
+  methods: {
+    handleSubmit(event) {
+      event.preventDefault();
+      // Form submission logic using fetch or axios
+    }
+  },
 };
 </script>
 
