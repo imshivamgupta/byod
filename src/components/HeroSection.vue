@@ -10,13 +10,13 @@
         App.
       </h2>
 
-      <form class="contact-form" name="contact" method="post" data-netlify="true">
-       <input type="hidden" name="form-name" value="contact" />
+      <form id="contact-form" class="contact-form" netlify>
         <!-- <label for="email">Email</label> -->
         <div>
           <input
             type="email"
             name="email"
+            id="email"
             placeholder="Enter your email"
             required
           />
