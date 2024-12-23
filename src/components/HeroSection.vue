@@ -127,7 +127,7 @@ export default {
     input {
       padding: 1rem;
       border: none;
-      width: 100%;
+      width: calc(100% - 76px);
       height: 100%;
       background: transparent;
       color: rgb(212 212 212/1);
